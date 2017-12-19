@@ -5,7 +5,8 @@ exports.test=test;
 
 test["hollow left triangle"]=function(){
   let triangle= new Triangle(12,"*");
-  let output=[ '*',
+  let output=[ 
+    '*',
     '**',
     '* *',
     '*  *',
@@ -22,7 +23,8 @@ test["hollow left triangle"]=function(){
 
 test["hollow right triangle"]=function(){
   let triangle= new Triangle(12,"*");
-  let output= [ '           *',
+  let output= [ 
+  '           *',
   '          **',
   '         * *',
   '        *  *',
@@ -39,7 +41,8 @@ test["hollow right triangle"]=function(){
 
 test["filled right triangle"]=function(){
   let triangle= new Triangle(12,"*");
-  let output=  [ '           *',
+  let output=  [
+    '           *',
     '          **',
     '         ***',
     '        ****',
@@ -56,7 +59,8 @@ test["filled right triangle"]=function(){
 
 test["filled left triangle"]=function(){
   let triangle= new Triangle(12,"*");
-  let output=  [ '*',
+  let output=  [
+    '*',
     '**',
     '***',
     '****',
